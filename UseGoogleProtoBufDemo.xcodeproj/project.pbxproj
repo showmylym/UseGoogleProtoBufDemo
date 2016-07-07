@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53374D651D2E47BB00E24B06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53374D641D2E47BB00E24B06 /* main.m */; };
+		53374D681D2E47BB00E24B06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53374D671D2E47BB00E24B06 /* AppDelegate.m */; };
+		53374D6B1D2E47BB00E24B06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53374D6A1D2E47BB00E24B06 /* ViewController.m */; };
+		53374D6E1D2E47BB00E24B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53374D6C1D2E47BB00E24B06 /* Main.storyboard */; };
+		53374D701D2E47BB00E24B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53374D6F1D2E47BB00E24B06 /* Assets.xcassets */; };
+		53374D731D2E47BB00E24B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53374D711D2E47BB00E24B06 /* LaunchScreen.storyboard */; };
+		53374E2D1D2E4B2100E24B06 /* GPBProtocolBuffers.m in Sources */ = {isa = PBXBuildFile; fileRef = 53374E051D2E4B2100E24B06 /* GPBProtocolBuffers.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		53374E341D2E4B2100E24B06 /* Test.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 53374E191D2E4B2100E24B06 /* Test.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		53374E351D2E4B2100E24B06 /* test.proto in Resources */ = {isa = PBXBuildFile; fileRef = 53374E1A1D2E4B2100E24B06 /* test.proto */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53374D601D2E47BB00E24B06 /* UseGoogleProtoBufDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UseGoogleProtoBufDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53374D641D2E47BB00E24B06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53374D661D2E47BB00E24B06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53374D671D2E47BB00E24B06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53374D691D2E47BB00E24B06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53374D6A1D2E47BB00E24B06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		53374D6D1D2E47BB00E24B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53374D6F1D2E47BB00E24B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53374D721D2E47BB00E24B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53374D741D2E47BB00E24B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53374DD91D2E4B2100E24B06 /* Any.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Any.pbobjc.h; sourceTree = "<group>"; };
+		53374DDB1D2E4B2100E24B06 /* Api.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Api.pbobjc.h; sourceTree = "<group>"; };
+		53374DDD1D2E4B2100E24B06 /* Duration.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Duration.pbobjc.h; sourceTree = "<group>"; };
+		53374DDF1D2E4B2100E24B06 /* Empty.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Empty.pbobjc.h; sourceTree = "<group>"; };
+		53374DE11D2E4B2100E24B06 /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		53374DE31D2E4B2100E24B06 /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		53374DE51D2E4B2100E24B06 /* Struct.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Struct.pbobjc.h; sourceTree = "<group>"; };
+		53374DE71D2E4B2100E24B06 /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		53374DE91D2E4B2100E24B06 /* Type.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.pbobjc.h; sourceTree = "<group>"; };
+		53374DEB1D2E4B2100E24B06 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		53374DED1D2E4B2100E24B06 /* GPBArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBArray.h; sourceTree = "<group>"; };
+		53374DEF1D2E4B2100E24B06 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		53374DF01D2E4B2100E24B06 /* GPBBootstrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBBootstrap.h; sourceTree = "<group>"; };
+		53374DF11D2E4B2100E24B06 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream.h; sourceTree = "<group>"; };
+		53374DF31D2E4B2100E24B06 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		53374DF41D2E4B2100E24B06 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		53374DF61D2E4B2100E24B06 /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		53374DF71D2E4B2100E24B06 /* GPBDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor.h; sourceTree = "<group>"; };
+		53374DF91D2E4B2100E24B06 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		53374DFA1D2E4B2100E24B06 /* GPBDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDictionary.h; sourceTree = "<group>"; };
+		53374DFC1D2E4B2100E24B06 /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		53374DFD1D2E4B2100E24B06 /* GPBExtensionInternals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionInternals.h; sourceTree = "<group>"; };
+		53374DFF1D2E4B2100E24B06 /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		53374E011D2E4B2100E24B06 /* GPBMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage.h; sourceTree = "<group>"; };
+		53374E031D2E4B2100E24B06 /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		53374E041D2E4B2100E24B06 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		53374E051D2E4B2100E24B06 /* GPBProtocolBuffers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPBProtocolBuffers.m; sourceTree = "<group>"; };
+		53374E061D2E4B2100E24B06 /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		53374E071D2E4B2100E24B06 /* GPBRootObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject.h; sourceTree = "<group>"; };
+		53374E091D2E4B2100E24B06 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		53374E0A1D2E4B2100E24B06 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		53374E0B1D2E4B2100E24B06 /* GPBUnknownField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField.h; sourceTree = "<group>"; };
+		53374E0D1D2E4B2100E24B06 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		53374E0E1D2E4B2100E24B06 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		53374E101D2E4B2100E24B06 /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		53374E111D2E4B2100E24B06 /* GPBUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities.h; sourceTree = "<group>"; };
+		53374E131D2E4B2100E24B06 /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		53374E141D2E4B2100E24B06 /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		53374E161D2E4B2100E24B06 /* GPBWireFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPBWireFormat.h; sourceTree = "<group>"; };
+		53374E181D2E4B2100E24B06 /* Test.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.pbobjc.h; sourceTree = "<group>"; };
+		53374E191D2E4B2100E24B06 /* Test.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.pbobjc.m; sourceTree = "<group>"; };
+		53374E1A1D2E4B2100E24B06 /* test.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.proto; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53374D5D1D2E47BB00E24B06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53374D571D2E47BB00E24B06 = {
+			isa = PBXGroup;
+			children = (
+				53374D621D2E47BB00E24B06 /* UseGoogleProtoBufDemo */,
+				53374D611D2E47BB00E24B06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53374D611D2E47BB00E24B06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53374D601D2E47BB00E24B06 /* UseGoogleProtoBufDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53374D621D2E47BB00E24B06 /* UseGoogleProtoBufDemo */ = {
+			isa = PBXGroup;
+			children = (
+				53374D661D2E47BB00E24B06 /* AppDelegate.h */,
+				53374D671D2E47BB00E24B06 /* AppDelegate.m */,
+				53374D691D2E47BB00E24B06 /* ViewController.h */,
+				53374D6A1D2E47BB00E24B06 /* ViewController.m */,
+				53374D6C1D2E47BB00E24B06 /* Main.storyboard */,
+				53374D6F1D2E47BB00E24B06 /* Assets.xcassets */,
+				53374DD51D2E4B2100E24B06 /* ProtoBuf */,
+				53374D711D2E47BB00E24B06 /* LaunchScreen.storyboard */,
+				53374D741D2E47BB00E24B06 /* Info.plist */,
+				53374D631D2E47BB00E24B06 /* Supporting Files */,
+			);
+			path = UseGoogleProtoBufDemo;
+			sourceTree = "<group>";
+		};
+		53374D631D2E47BB00E24B06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53374D641D2E47BB00E24B06 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53374DD51D2E4B2100E24B06 /* ProtoBuf */ = {
+			isa = PBXGroup;
+			children = (
+				53374DD61D2E4B2100E24B06 /* RunTime */,
+				53374E181D2E4B2100E24B06 /* Test.pbobjc.h */,
+				53374E191D2E4B2100E24B06 /* Test.pbobjc.m */,
+				53374E1A1D2E4B2100E24B06 /* test.proto */,
+			);
+			path = ProtoBuf;
+			sourceTree = "<group>";
+		};
+		53374DD61D2E4B2100E24B06 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				53374DD71D2E4B2100E24B06 /* google */,
+				53374DED1D2E4B2100E24B06 /* GPBArray.h */,
+				53374DEF1D2E4B2100E24B06 /* GPBArray_PackagePrivate.h */,
+				53374DF01D2E4B2100E24B06 /* GPBBootstrap.h */,
+				53374DF11D2E4B2100E24B06 /* GPBCodedInputStream.h */,
+				53374DF31D2E4B2100E24B06 /* GPBCodedInputStream_PackagePrivate.h */,
+				53374DF41D2E4B2100E24B06 /* GPBCodedOutputStream.h */,
+				53374DF61D2E4B2100E24B06 /* GPBCodedOutputStream_PackagePrivate.h */,
+				53374DF71D2E4B2100E24B06 /* GPBDescriptor.h */,
+				53374DF91D2E4B2100E24B06 /* GPBDescriptor_PackagePrivate.h */,
+				53374DFA1D2E4B2100E24B06 /* GPBDictionary.h */,
+				53374DFC1D2E4B2100E24B06 /* GPBDictionary_PackagePrivate.h */,
+				53374DFD1D2E4B2100E24B06 /* GPBExtensionInternals.h */,
+				53374DFF1D2E4B2100E24B06 /* GPBExtensionRegistry.h */,
+				53374E011D2E4B2100E24B06 /* GPBMessage.h */,
+				53374E031D2E4B2100E24B06 /* GPBMessage_PackagePrivate.h */,
+				53374E041D2E4B2100E24B06 /* GPBProtocolBuffers.h */,
+				53374E051D2E4B2100E24B06 /* GPBProtocolBuffers.m */,
+				53374E061D2E4B2100E24B06 /* GPBProtocolBuffers_RuntimeSupport.h */,
+				53374E071D2E4B2100E24B06 /* GPBRootObject.h */,
+				53374E091D2E4B2100E24B06 /* GPBRootObject_PackagePrivate.h */,
+				53374E0A1D2E4B2100E24B06 /* GPBRuntimeTypes.h */,
+				53374E0B1D2E4B2100E24B06 /* GPBUnknownField.h */,
+				53374E0D1D2E4B2100E24B06 /* GPBUnknownField_PackagePrivate.h */,
+				53374E0E1D2E4B2100E24B06 /* GPBUnknownFieldSet.h */,
+				53374E101D2E4B2100E24B06 /* GPBUnknownFieldSet_PackagePrivate.h */,
+				53374E111D2E4B2100E24B06 /* GPBUtilities.h */,
+				53374E131D2E4B2100E24B06 /* GPBUtilities_PackagePrivate.h */,
+				53374E141D2E4B2100E24B06 /* GPBWellKnownTypes.h */,
+				53374E161D2E4B2100E24B06 /* GPBWireFormat.h */,
+			);
+			path = RunTime;
+			sourceTree = "<group>";
+		};
+		53374DD71D2E4B2100E24B06 /* google */ = {
+			isa = PBXGroup;
+			children = (
+				53374DD81D2E4B2100E24B06 /* protobuf */,
+			);
+			path = google;
+			sourceTree = "<group>";
+		};
+		53374DD81D2E4B2100E24B06 /* protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				53374DD91D2E4B2100E24B06 /* Any.pbobjc.h */,
+				53374DDB1D2E4B2100E24B06 /* Api.pbobjc.h */,
+				53374DDD1D2E4B2100E24B06 /* Duration.pbobjc.h */,
+				53374DDF1D2E4B2100E24B06 /* Empty.pbobjc.h */,
+				53374DE11D2E4B2100E24B06 /* FieldMask.pbobjc.h */,
+				53374DE31D2E4B2100E24B06 /* SourceContext.pbobjc.h */,
+				53374DE51D2E4B2100E24B06 /* Struct.pbobjc.h */,
+				53374DE71D2E4B2100E24B06 /* Timestamp.pbobjc.h */,
+				53374DE91D2E4B2100E24B06 /* Type.pbobjc.h */,
+				53374DEB1D2E4B2100E24B06 /* Wrappers.pbobjc.h */,
+			);
+			path = protobuf;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53374D5F1D2E47BB00E24B06 /* UseGoogleProtoBufDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53374D771D2E47BB00E24B06 /* Build configuration list for PBXNativeTarget "UseGoogleProtoBufDemo" */;
+			buildPhases = (
+				53374D5C1D2E47BB00E24B06 /* Sources */,
+				53374D5D1D2E47BB00E24B06 /* Frameworks */,
+				53374D5E1D2E47BB00E24B06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UseGoogleProtoBufDemo;
+			productName = UseGoogleProtoBufDemo;
+			productReference = 53374D601D2E47BB00E24B06 /* UseGoogleProtoBufDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53374D581D2E47BB00E24B06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = leiyiming;
+				TargetAttributes = {
+					53374D5F1D2E47BB00E24B06 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 53374D5B1D2E47BB00E24B06 /* Build configuration list for PBXProject "UseGoogleProtoBufDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53374D571D2E47BB00E24B06;
+			productRefGroup = 53374D611D2E47BB00E24B06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53374D5F1D2E47BB00E24B06 /* UseGoogleProtoBufDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53374D5E1D2E47BB00E24B06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53374E351D2E4B2100E24B06 /* test.proto in Resources */,
+				53374D731D2E47BB00E24B06 /* LaunchScreen.storyboard in Resources */,
+				53374D701D2E47BB00E24B06 /* Assets.xcassets in Resources */,
+				53374D6E1D2E47BB00E24B06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53374D5C1D2E47BB00E24B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53374D6B1D2E47BB00E24B06 /* ViewController.m in Sources */,
+				53374E2D1D2E4B2100E24B06 /* GPBProtocolBuffers.m in Sources */,
+				53374D681D2E47BB00E24B06 /* AppDelegate.m in Sources */,
+				53374E341D2E4B2100E24B06 /* Test.pbobjc.m in Sources */,
+				53374D651D2E47BB00E24B06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53374D6C1D2E47BB00E24B06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53374D6D1D2E47BB00E24B06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53374D711D2E47BB00E24B06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53374D721D2E47BB00E24B06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53374D751D2E47BB00E24B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53374D761D2E47BB00E24B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53374D781D2E47BB00E24B06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/UseGoogleProtoBufDemo/ProtoBuf/**";
+				INFOPLIST_FILE = UseGoogleProtoBufDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiyiming.UseGoogleProtoBufDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53374D791D2E47BB00E24B06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/UseGoogleProtoBufDemo/ProtoBuf/**";
+				INFOPLIST_FILE = UseGoogleProtoBufDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leiyiming.UseGoogleProtoBufDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53374D5B1D2E47BB00E24B06 /* Build configuration list for PBXProject "UseGoogleProtoBufDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53374D751D2E47BB00E24B06 /* Debug */,
+				53374D761D2E47BB00E24B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53374D771D2E47BB00E24B06 /* Build configuration list for PBXNativeTarget "UseGoogleProtoBufDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53374D781D2E47BB00E24B06 /* Debug */,
+				53374D791D2E47BB00E24B06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53374D581D2E47BB00E24B06 /* Project object */;
+}

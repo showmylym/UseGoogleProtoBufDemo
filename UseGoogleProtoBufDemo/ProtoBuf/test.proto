@@ -1,0 +1,8 @@
+
+//发送验证码
+message UserInfo {
+     required string phone               = 1;    // 手机号
+     required string nickName            = 2;    // 昵称
+     required int32 uid                  = 3;    // uid
+     optional string address             = 4;    // 地址
+}
